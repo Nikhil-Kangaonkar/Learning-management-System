@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Skill</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+
+  </head>
+  <body>
+
+    <!-- Nav Bar Start -->
+
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <div class="logo">E-<span> Skill </span></div>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a class="newmenu" href="#main">Home </a></li>
+            <li><a class="newmenu" href="#service-title">Service </a></li>
+            <li><a class="newmenu" href="#categories-header">Courses </a></li>
+            <li><a class="newmenu" href="#ins-title">Instructors </a></li>
+            <li><a class="newmenu" href="#review-section">Testimonials </a></li>
+            <li><a class="newmenu" href="#footer">About Us </a></li>
+            <a class="account" href="signin_signup.html">Account</a>
+            <a class="nvcart" href="#">Cart</a>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Nav Bar End -->
+
+
+    <!-- Hero Section Start -->
+
+    <main class="main" id="main">
+      <div class="content">
+        <h2>Grow your skills,</h2>
+        <h1>Build your <span>future</span></h1>
+        <p>
+          We collaborate to ensure every student achieves academic, social, and
+          emotional success by providing comprehensive support.
+        </p>
+        <div class="buttons">
+          <a href="#">Get Started</a>
+          <a href="#"><i class="fas fa-play-circle"></i> Watch video</a>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          src="/Images/2.jpg"
+          alt="A person holding a phone and smiling"
+          width="400"
+          height="400"
+        />
+        <div class="badge" id="badge1">
+          <img
+            src="/Images/3.jpg"
+            alt="Icon of a computer screen"
+            width="20"
+            height="20"
+          /><span>5+ Free Courses</span>
+        </div>
+        <div class="badge" id="badge2">
+          <img
+            src="/Images/4.jpg"
+            alt="Icon of a graduation cap"
+            width="20"
+            height="20"
+          /><span>500+ Active Students</span>
+        </div>
+        <div class="badge" id="badge3">
+          <img
+            src="/Images/1.jpg"
+            alt="Icon of instructors"
+            width="20"
+            height="20"
+          /><span>3+ Instructors</span>
+        </div>
+      </div>
+      <div class="background-shapes">
+        <div class="shapestar"></div>
+        <div class="shapestar"></div>
+        <div class="shapestar"></div>
+        <div class="shapestar"></div>
+      </div>
+    </main>
+
+    <!-- Hero Section End -->
+
+
+    <!-- Search Section Start -->
+
+    <div class="search-bar">
+      <form action="#" method="GET">
+        <input type="text" name="query" placeholder="Courses name..." />
+        <select>
+          <option>All Categories</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <!-- Search Section End -->
+
+
+    <!-- Service Section Start -->
+
+    <h2 class="service-title" id="service-title">Our Best Services</h2>
+    <div class="services">
+      <div class="service-cards">
+        <div class="service-card">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h3>Expert Instructor</h3>
+          <p>
+            Learn from industry experts with years of experience to guide you
+            every step of the way.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 Support Available</h3>
+          <p>
+            Get round-the-clock assistance from our dedicated support team,
+            whenever you need help.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-lock"></i>
+          <h3>Lifetime access</h3>
+          <p>
+            Enjoy unlimited access to course materials, updates, and resources
+            for life.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-laptop"></i>
+          <h3>Learn Anywhere</h3>
+          <p>
+            Study at your own pace, from any device, anytime, and from anywhere
+            in the world.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service Section End -->
+
+
+    <!-- Courses Category Section Start -->
+
+    <div class="categories-header" id="categories-header">
+      <h1>Explore Courses by Categories</h1>
+    </div>
+
+    <div class="container">
+      <div class="box">
+        <span></span>
+        <div class="icons">
+          <i class="fas fa-cube"></i>
+        </div>
+        <h2>3D + Animation</h2>
+        <p>20+ Courses</p>
+        <a href="#" class="btn">Explore Courses</a>
+      </div>
+      <div class="box">
+        <span></span>
+        <div class="icons">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <h2>Development</h2>
+        <p>25+ Courses</p>
+        <a href="#" class="btn">Explore Courses</a>
+      </div>
+      <div class="box">
+        <span></span>
+        <div class="icons">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h2>Technology</h2>
+        <p>20+ Courses</p>
+        <a href="#" class="btn">Explore Courses</a>
+      </div>
+      <div class="box">
+        <span></span>
+        <div class="icons">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h2>Marketing & SEO</h2>
+        <p>20+ Courses</p>
+        <a href="#" class="btn">Explore Courses</a>
+      </div>
+      <div class="box">
+        <span></span>
+        <div class="icons">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <h2>Ui/UX Design</h2>
+        <p>20+ Courses</p>
+        <a href="#" class="btn">Explore Courses</a>
+      </div>
+      <div class="box">
+        <span></span>
+        <div class="icons">
+          <i class="fas fa-database"></i>
+        </div>
+        <h2>Data Science</h2>
+        <p>20+ Courses</p>
+        <a href="#" class="btn">Explore Courses</a>
+      </div>
+    </div>
+
+    <!-- Courses Category Section End -->
+
+
+    <!-- Published Course Section Start -->
+
+    <div class="unique-courses-header" id="unique-courses-header">
+      <h1>Our Courses</h1>
+      <!-- <p>Learn Best Things</p> -->
+    </div>
+
+    <div class="course-section">
+      <button id="prevCourse" class="scroll-btn">❮</button>
+      <div class="course-slider" id="courseSlider">
+        <!-- Courses will be added dynamically here -->
+      </div>
+      <button id="nextCourse" class="scroll-btn">❯</button>
+    </div>
+
+    <!-- Published Course Section End -->
+
+
+    <!-- Banner Section Start -->
+
+    <div class="course-banner-wrapper">
+      <div class="course-banner">
+        <h1>The Best Choice</h1>
+        <h2>Apply For Your Favorite Courses Today!</h2>
+        <a href="#" class="apply-button">Apply Now</a>
+      </div>
+    </div>
+
+    <!-- Banner Section End -->
+
+
+    <!-- Instructor Section Start -->
+
+    <div class="ins-title" id="ins-title">
+      <h1>Meet Our Instructors</h1>
+      <pre>
+    Education is the most powerful weapon which you<span> can use to change the world.</span>
+    Leadership is not about a title or a designation.<span> It's about impact , influence and inspiration.</span> 
+      </pre>
+    </div>
+    <div class="instructors-section">
+      <div class="team-area">
+        <figure class="insbox">
+          <figcaption>
+            <h2>UX Designer</h2>
+            <p>Henry Charles</p>
+            <p class="socials">
+              <i class="fas fa-phone"> </i>
+              <i class="fas fa-envelope"> </i>
+              <i class="fas fa-user"> </i>
+            </p>
+          </figcaption>
+
+          <img alt="Portrait of Henry Charles" src="/Images/img1.jpg" />
+        </figure>
+
+        <figure class="insbox">
+          <figcaption>
+            <h2>Web Designer</h2>
+            <p>Ronald Richards</p>
+            <p class="socials">
+              <i class="fas fa-phone"> </i>
+              <i class="fas fa-envelope"> </i>
+              <i class="fas fa-user"> </i>
+            </p>
+          </figcaption>
+
+          <img alt="Portrait of Ronald Richards" src="/Images/img2.jpg" />
+        </figure>
+
+        <figure class="insbox">
+          <figcaption>
+            <h2>Developer</h2>
+            <p>Carry Carlos</p>
+            <p class="socials">
+              <i class="fas fa-phone"> </i>
+              <i class="fas fa-envelope"> </i>
+              <i class="fas fa-user"> </i>
+            </p>
+          </figcaption>
+
+          <img alt="Portrait of Carry Carlos" src="/Images/img3.jpg" />
+        </figure>
+      </div>
+    </div>
+
+    <!-- Instructor Section End -->
+
+
+    <!-- Testimonials Section Start -->
+
+    <div class="review-section" id="review-section">
+      <div class="review-container">
+        <div class="review-header">
+          <h1>Our Students Review</h1>
+          <h2>Stories of Our <span>Successful</span> Students</h2>
+        </div>
+        <div class="slider">
+          <button class="slider-btn prev-btn">❮</button>
+          <div class="slider-track">
+            <div class="slider-card">
+              <img src="/Images/review.jpg" alt="Person One" />
+              <h3>Rahul Sharma</h3>
+              <div class="student-stars">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="student-name">Mumbai</div>
+              <div class="student-title">Software Engineer</div>
+            </div>
+            <div class="slider-card">
+              <img src="/Images/review.jpg" alt="Person Two" />
+              <h3>Priya Mehta</h3>
+              <div class="student-stars">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="student-name">Banglore</div>
+              <div class="student-title">UI/UX Designer</div>
+            </div>
+            <div class="slider-card">
+              <img src="/Images/review.jpg" alt="Person Three" />
+              <h3>Ankit Verma</h3>
+              <div class="student-stars">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="student-name">Delhi</div>
+              <div class="student-title">Data Analyst</div>
+            </div>
+            <div class="slider-card">
+              <img src="/Images/review.jpg" alt="Person four" />
+              <h3>Sneha Roy</h3>
+              <div class="student-stars">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="student-name">Kolkata</div>
+              <div class="student-title">Java Developer</div>
+            </div>
+            <div class="slider-card">
+              <img src="/Images/review.jpg" alt="Person five" />
+              <h3>Rohan Gupta</h3>
+              <div class="student-stars">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="student-name">Pune</div>
+              <div class="student-title">Python Developer</div>
+            </div>
+            <div class="slider-card">
+              <img src="/Images/review.jpg" alt="Person Six" />
+              <h3>Kavya Singh</h3>
+              <div class="student-stars">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="student-name">Nashik</div>
+              <div class="student-title">DBA</div>
+            </div>
+          </div>
+          <button class="slider-btn next-btn">❯</button>
+        </div>
+        <div class="slider-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Section End -->
+
+
+    <!-- Footer Section Start -->
+
+    <footer class="footer" id="footer">
+      <div class="footer-column">
+        <div class="logo-title">
+          <img
+            alt="Company Logo"
+            height="50"
+            src="/Images/E- Skill Logo.jpg"
+            width="50"
+          />
+          <h3>
+            E-
+            <span style="color: #6200ea"> Skill </span>
+          </h3>
+        </div>
+        <p>Practical-based learning platform to enhance skills</p>
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"> </i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"> </i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Resources</h3>
+        <a href="#main"> Home </a>
+        <a href="#unique-courses-header"> Courses </a>
+        <a href="#"> Terms &amp; Conditions </a>
+      </div>
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <p class="contact-info">
+          <i class="fas fa-phone-alt"> </i>
+          +91 477 8569 256
+        </p>
+        <p class="contact-info">
+          <i class="fas fa-envelope"> </i>
+          eskillbusiness@gmail.com
+        </p>
+        <p class="contact-info">
+          <i class="fas fa-map-marker-alt"> </i>
+          India (Bharat)
+        </p>
+      </div>
+      <div class="footer-column">
+        <h3>Become an Instructor</h3>
+        <p>Quote us, And Get Ready to become a part of E- Skill Family</p>
+        <div class="register-input">
+          <input placeholder="Enter your Email" type="email" />
+          <button>Register now</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
